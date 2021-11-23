@@ -10,13 +10,13 @@ export const Presentations: NextPage = () => {
         <h3>2021 (B4 student)</h3>
         <ul>
           {[
-            <>
-              <Authored name="Hiroki Kobayashi"></Authored>.
-              "氷IVの低温での結晶構造解析を目指して (Towards a crystal structure
-              analysis of Ice IV at low temperature)". H<sub>2</sub>
-              Oを科学する. (6th December 2021). Virtual Meeting via Zoom. [in
-              Japanese]
-            </>,
+            // <>
+            //   <Authored name="Hiroki Kobayashi"></Authored>.
+            //   "氷IVの低温での結晶構造解析を目指して (Towards a crystal structure
+            //   analysis of Ice IV at low temperature)". H<sub>2</sub>
+            //   Oを科学する. (6th December 2021). Virtual Meeting via Zoom. [in
+            //   Japanese]
+            // </>,
             <>
               <Authored name="Hiroki Kobayashi"></Authored>, Kazuki Komatsu, and
               Hiroyuki Kagi.
