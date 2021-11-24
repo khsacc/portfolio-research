@@ -269,10 +269,10 @@ function MyApp({ Component, pageProps }) {
         defaultTitle="Hiroki Kobayashi Research Portfolio"
         description="Hiroki Kobayashi, working on high-pressure science, especially ice polymorphs at Geochemical Research Centre, the University of Tokyo."
         additionalMetaTags={[
-          // {
-          //   name: 'og:image',
-          //   content: 'https://hiroki-k.vercel.app/img/topPage/kv_pc.png',
-          // },
+          {
+            name: "og:image",
+            content: "https://hiroki-k.vercel.app/meta/ogimage.jpg",
+          },
           {
             name: "og:title",
             content: "Hiroki Kobayashi Research Portfolio",

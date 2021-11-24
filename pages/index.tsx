@@ -7,6 +7,10 @@ import { Presentations } from "../components/top/presentations";
 import { MyTheme } from "../styles/myTheme";
 
 const useStyles = createUseStyles((theme: MyTheme) => ({
+  main: {
+    maxWidth: 1000,
+    margin: "0 auto",
+  },
   self: {
     width: "fit-content",
     margin: "0 auto",
@@ -16,7 +20,7 @@ const useStyles = createUseStyles((theme: MyTheme) => ({
 export default function Home() {
   const classes = useStyles();
   return (
-    <main>
+    <main className={classes.main}>
       <article>
         <div className={classes.self}>
           <Image
