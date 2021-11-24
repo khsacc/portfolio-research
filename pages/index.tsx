@@ -39,10 +39,16 @@ export default function Home() {
           , School of Science, the University of Tokyo.
         </p>
         <p>
+          E-mail:{" "}
+          <a href="mailto:hiroki@eqchem.s.u-tokyo.ac.jp">
+            hiroki@eqchem.s.u-tokyo.ac.jp
+          </a>
+        </p>
+        <p>
           113-0033 東京都文京区本郷7-3-1 理学部化学西館7階 2702室
           <br />
           Room 2702, 7F, Chemistry West Building, School of Science, 7-3-1,
-          Hongo, Bunkyo-ku, Tokyo, Japan. 113-0033
+          Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan.
         </p>
 
         <section>

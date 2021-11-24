@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 // import { appWithTranslation, useTranslation } from "../lib/i18n";
 import { appWithTranslation } from "next-i18next";
 import Head from "next/head";
+import { NextSeo } from "next-seo";
 
 const useStyles = createUseStyles((theme: MyTheme) => ({
   container: {
@@ -264,6 +265,24 @@ function MyApp({ Component, pageProps }) {
           href={`${BASE_PATH}/meta/icon-32x32.png`}
         />
       </Head>
+      <NextSeo
+        defaultTitle="Hiroki Kobayashi Research Portfolio"
+        description="Hiroki Kobayashi, working on high-pressure science, especially ice polymorphs at Geochemical Research Centre, the University of Tokyo."
+        additionalMetaTags={[
+          // {
+          //   name: 'og:image',
+          //   content: 'https://hiroki-k.vercel.app/img/topPage/kv_pc.png',
+          // },
+          {
+            name: "og:title",
+            content: "Hiroki Kobayashi Research Portfolio",
+          },
+          {
+            name: "twitter:title",
+            content: "Hiroki Kobayashi Research Portfolio",
+          },
+        ]}
+      />
       <ThemeProvider theme={myTheme}>
         <Header />
         <div className={classes.container}>
