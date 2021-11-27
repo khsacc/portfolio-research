@@ -4,6 +4,7 @@ import { NextSeo } from "next-seo";
 export const SEO: NextPage<{ BASE_PATH: string }> = ({ BASE_PATH }) => {
   return (
     <NextSeo
+      title="Hiroki Kobayashi Research Portfolio"
       defaultTitle="Hiroki Kobayashi Research Portfolio"
       description="Hiroki Kobayashi, working on high-pressure science, especially ice polymorphs at Geochemical Research Centre, the University of Tokyo."
       additionalMetaTags={[
