@@ -64,6 +64,15 @@ export default function Home() {
             <li>Raman spectroscopy</li>
           </ul>
         </section>
+        <section>
+          <h2>Education history</h2>
+          <ul>
+            <li>
+              2021 - current. Undergraduate student at Geochemical Research
+              Centre, the University of Tokyo.
+            </li>
+          </ul>
+        </section>
         <Presentations />
         <section>
           <h2>Developed App</h2>
