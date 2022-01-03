@@ -4,7 +4,7 @@ import { Authored } from "../common/authored";
 export const Presentations: NextPage = () => {
   return (
     <section>
-      <h2>Oral Presentations</h2>
+      <h2>Oral presentations</h2>
 
       <article>
         <h3>2021 (B4 student)</h3>
@@ -20,11 +20,8 @@ export const Presentations: NextPage = () => {
             <>
               <Authored name="Hiroki Kobayashi"></Authored>, Kazuki Komatsu, and
               Hiroyuki Kagi.
-              "高圧X線回折実験による高密度アモルファス氷からの氷IVの結晶化その場観察
-              (In-situ X-ray diffraction experiments of crystallization of ice
-              IV from high-density amorphous ice at high pressure)". Annual
-              meeting of Crystallographic Society of Japan. (19th November
-              2021). Virtual Meeting via Zoom. [in Japanese]
+              "高圧X線回折実験による高密度アモルファス氷からの氷IVの結晶化その場観察".
+              日本結晶学会年会（オンライン）. 2021年11月19日.
             </>,
           ].map((e, i) => (
             <li key={i}>{e}</li>
