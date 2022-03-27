@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <h1>Hiroki Kobayashi</h1>
         <p>
-          B4 student at{" "}
+          A master course student at{" "}
           <a
             href="https://www.eqchem.s.u-tokyo.ac.jp/laboratories/kagi/Homepage/index.html"
             target="_blank"
@@ -68,8 +68,12 @@ export default function Home() {
           <h2>Education history</h2>
           <ul>
             <li>
-              2021 - current. Undergraduate student at Geochemical Research
+              2022 - current. Master course student at Geochemical Research
               Centre, the University of Tokyo.
+            </li>
+            <li>
+              2021 - 2022. Undergraduate student at Geochemical Research Centre,
+              the University of Tokyo (Bachelor from the University of Tokyo).
             </li>
           </ul>
         </section>
