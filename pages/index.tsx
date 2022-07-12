@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { createUseStyles } from "react-jss";
 import { Authored } from "../components/common/authored";
+import { Awards } from "../components/top/awards";
 import { Presentations } from "../components/top/presentations";
 import { MyTheme } from "../styles/myTheme";
 
@@ -32,7 +33,7 @@ export default function Home() {
         </div>
         <h1>Hiroki Kobayashi</h1>
         <p>
-          A master course student at{" "}
+          A M.Sc student at{" "}
           <a
             href="https://www.eqchem.s.u-tokyo.ac.jp/laboratories/kagi/Homepage/index.html"
             target="_blank"
@@ -57,27 +58,33 @@ export default function Home() {
 
         <section>
           <h2>Research interest</h2>
-          <ul>
-            <li>High-pressure science</li>
+          <p>
+            Ice polymorphs / High pressure / Neutron scattering / Raman
+            spectroscopy
+          </p>
+          {/* <ul>
             <li>Ice polymorphs</li>
-            <li>Diffraction techniques</li>
+            <li>High-pressure technique</li>
+            <li>Neutron scattering</li>
             <li>Raman spectroscopy</li>
-          </ul>
+          </ul> */}
         </section>
         <section>
           <h2>Education history</h2>
           <ul>
             <li>
-              2022 - current. Master course student at Geochemical Research
-              Centre, the University of Tokyo.
+              2022 - current. Master course (M.Sc) student at Geochemical
+              Research Centre, the University of Tokyo.
             </li>
             <li>
-              2021 - 2022. Undergraduate student at Geochemical Research Centre,
-              the University of Tokyo (Bachelor from the University of Tokyo).
+              2021 - 2022. Undergraduate (B.Sc) student at Geochemical Research
+              Centre, the University of Tokyo (Bachelor from the University of
+              Tokyo).
             </li>
           </ul>
         </section>
         <Presentations />
+        <Awards />
         <section>
           <h2>Developed App</h2>
           <ul>
