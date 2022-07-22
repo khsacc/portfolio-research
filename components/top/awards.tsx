@@ -11,7 +11,7 @@ export const Awards: NextPage = () => {
   ];
   return (
     <section>
-      <h2>Oral presentations</h2>
+      <h2>Awards</h2>
       <article>
         <ol reversed>
           {awardsData.map((e, i) => (

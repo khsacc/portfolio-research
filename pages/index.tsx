@@ -62,24 +62,17 @@ export default function Home() {
             Ice polymorphs / High pressure / Neutron scattering / Raman
             spectroscopy
           </p>
-          {/* <ul>
-            <li>Ice polymorphs</li>
-            <li>High-pressure technique</li>
-            <li>Neutron scattering</li>
-            <li>Raman spectroscopy</li>
-          </ul> */}
         </section>
         <section>
           <h2>Education history</h2>
           <ul>
             <li>
-              2022 - current. Master course (M.Sc) student at Geochemical
-              Research Centre, the University of Tokyo.
+              2022 - current. Master course student at Geochemical Research
+              Centre, the University of Tokyo.
             </li>
             <li>
-              2021 - 2022. Undergraduate (B.Sc) student at Geochemical Research
-              Centre, the University of Tokyo (Bachelor from the University of
-              Tokyo).
+              2021 - 2022. Undergraduate student at Geochemical Research Centre,
+              the University of Tokyo (B.Sc from the University of Tokyo).
             </li>
           </ul>
         </section>
