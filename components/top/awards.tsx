@@ -4,9 +4,9 @@ import { Authored } from "../common/authored";
 export const Awards: NextPage = () => {
   const awardsData = [
     <>
-      東京大学理学部化学科長賞. "Exploring hydrogen-ordered counter polymorph of
-      ice IV by in-situ X-ray/neutron diffraction and Raman spectroscopy". 25
-      March 2022.
+      東京大学理学部化学科長賞 (Dept. of Chem Chair Award for the best B.Sc
+      presentation). "Exploring hydrogen-ordered counter polymorph of ice IV by
+      in-situ X-ray/neutron diffraction and Raman spectroscopy". 25 March 2022.
     </>,
   ];
   return (
