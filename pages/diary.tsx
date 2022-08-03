@@ -28,6 +28,14 @@ export default function Diary() {
         </p>
 
         <div className={classes.diaryComponent}>
+          <h3>2022-08-03 Quantum ESPRESSO installation</h3>
+          <p>
+            自分のPCにQuantum
+            ESPRESSOをインストールした。研究室には計算用PCがあるが、まずはこちらで取り扱いに慣れようと思う。何を計算するかはひみつ。
+          </p>
+        </div>
+
+        <div className={classes.diaryComponent}>
           <h3>2022-07-26 部品作製</h3>
           <p>
             自分で描いた図面を初めて他人にお渡しする機会がありました。といってもたいしたものではないですが、理学系研究科の工作室にお願いしてちょっとした治具を作っていただきます。いずれ自分で工作技術も身につけたいものです。
