@@ -33,7 +33,7 @@ const useStyles = createUseStyles((theme: MyTheme) => ({
   name: {
     position: "absolute",
     left: 10,
-    bottom: "10%",
+    top: "20%",
     fontSize: 28,
     fontFamily: "adobe-garamond-pro, serif",
     fontWeight: 400,
@@ -45,6 +45,18 @@ const useStyles = createUseStyles((theme: MyTheme) => ({
     fontFamily: "adobe-garamond-pro, serif",
     fontWeight: 400,
   },
+  pages: {
+    position: "absolute",
+    bottom: "20%",
+    left: 10,
+  },
+  pagesLink: {
+    color: "white",
+    display: "inline-block",
+    marginRight: 10,
+    // textDecoration: "none",
+  },
+
   locale: {
     position: "absolute",
     right: 10,
@@ -65,8 +77,15 @@ export const Header: NextPage = () => {
         <LineUmb className={classes.umb} />
         <div className={classes.name}>
           Hiroki Kobayashi
-          <br />
-          <span className={classes.portfolio}>Research Portfolio</span>
+          <span className={classes.portfolio}> - Research Portfolio</span>
+        </div>
+        <div className={classes.pages}>
+          <Link href="/">
+            <a className={classes.pagesLink}>Top</a>
+          </Link>
+          <Link href="/diary">
+            <a className={classes.pagesLink}>Diary (Japanese)</a>
+          </Link>
         </div>
         {/* <div className={classes.locale}>
           switch to{" "}

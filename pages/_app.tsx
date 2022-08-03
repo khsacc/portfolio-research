@@ -13,7 +13,7 @@ import { SEO } from "../components/common/seo";
 const useStyles = createUseStyles((theme: MyTheme) => ({
   container: {
     padding: 16,
-    // marginTop: 100,
+    marginTop: 100,
   },
 }));
 
@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <SEO BASE_PATH={BASE_PATH} />
       <ThemeProvider theme={myTheme}>
-        {/* <Header /> */}
+        <Header />
         <div className={classes.container}>
           <Component {...pageProps} />
         </div>
